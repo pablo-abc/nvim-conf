@@ -19,6 +19,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'dense-analysis/ale'
 Plug 'mileszs/ack.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Initialize plugin system
 call plug#end()
@@ -31,6 +32,7 @@ au Syntax * RainbowParenthesesLoadBraces
 " END Rainbow
 
 " START Personal Configuration
+color dracula
 :set tabstop=2
 :set shiftwidth=2
 :set expandtab
